@@ -1,5 +1,5 @@
 <template>
-  <div class=" bg-black text-white w-full overflow-hidden">
+  <div class="bg-black text-white w-full overflow-hidden">
     <div class="paddingX flexCenter">
       <div class="boxWidth">
         <Navbar />
@@ -24,9 +24,5 @@
         <Footer />
       </div>
     </div>
-  </div>
-
-  <div class="">
-
   </div>
 </template>

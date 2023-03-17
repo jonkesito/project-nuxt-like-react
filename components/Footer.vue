@@ -17,7 +17,7 @@
             <ul class="list-none mt-4">
               <li
                 :class="`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursos-pointer 
-                                                                                                                                                                                                                                                                                                                  `"
+                                                                                                                                                                                                                                                                                                                                    `"
                 v-for="link, index in footerlink.links" :key="index">
                 {{ link.name }}
               </li>
@@ -31,7 +31,7 @@
       <p class="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
         Copyright Ⓒ 2022 HooBank. All Rights Reserved.
       </p>
-      <div className="flex flex-row md:mt-0 mt-6">
+      <div class="flex flex-row md:mt-0 mt-6">
         <img v-for="(social, index) in socialMedia" :key="index" :src="social.icon" :alt="social.id"
           :class="`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? 'mr-6 ' : 'mr-0'}`"
           @click="() => { window.open(social.link) }" />
